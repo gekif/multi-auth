@@ -80,6 +80,16 @@ return [
             'model' => App\User::class,
         ],
 
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
+        ],
+        'writers' => [
+            'driver' => 'eloquent',
+            'model' => App\Writer::class,
+        ],
+
+
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
